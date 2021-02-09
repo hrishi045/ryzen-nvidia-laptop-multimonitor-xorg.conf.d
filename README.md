@@ -23,13 +23,13 @@ The configuration on this repo enables the use of NVIDIA only and trades battery
 
 ## Who is this for? (IMPORTANT)
 
-[x] People with a relatively new Ryzen CPU + Nvidia GPU laptop like my ASUS FX505DT with `AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx (8) @ 2.100GHz (and AMD Radeon RX Vega 8)`,  and `NVIDIA GeForce GTX 1650 Mobile / Max-Q`
+- [x] People with a relatively new Ryzen CPU + Nvidia GPU laptop like my ASUS FX505DT with `AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx (8) @ 2.100GHz (and AMD Radeon RX Vega 8)`,  and `NVIDIA GeForce GTX 1650 Mobile / Max-Q`
   - Something with the Integrated GPU connected to the Internal display
   - And the external NVIDIA GPU connected to the external display
-[x] People who don't care about battery life (you'd be lucky to get 
-[x] People who primarily use their external monitor or a dual monitor (your laptop's internal screen + external monitor) setup (both should work)
-[x] People who don't need Wayland (Xorg only. Proprietary NVIDIA drivers don't support Wayland and with this configuration, it's pretty much impossible)
-[x] People who have proprietary NVIDIA drivers installed (nouveau doesn't work)
+- [x] People who don't care about battery life (you'd be lucky to get 
+- [x] People who primarily use their external monitor or a dual monitor (your laptop's internal screen + external monitor) setup (both should work)
+- [x] People who don't need Wayland (Xorg only. Proprietary NVIDIA drivers don't support Wayland and with this configuration, it's pretty much impossible)
+- [x] People who have proprietary NVIDIA drivers installed (nouveau doesn't work)
 
 I tested this on Ubuntu 20.04.2 and Arch Linux but theoretically it should work on all Linux distributions on the 5.8+ kernel and NVIDIA 460+ driver. 
 
